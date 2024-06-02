@@ -4,13 +4,15 @@
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_l1hke"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ue5j4"]
-radius = 34.0
+radius = 42.19
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_br0o3")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_ue5j4")
-
 [node name="HappyBoo" parent="." instance=ExtResource("1_l1hke")]
 unique_name_in_owner = true
+position = Vector2(0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -29)
+shape = SubResource("CircleShape2D_ue5j4")
