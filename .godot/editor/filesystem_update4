@@ -8,3 +8,5 @@ res://bullet.tscn
 res://bullet.gd
 res://Mob.gd
 res://player.gd
+res://2d_shooter_game.gd
+res://mob.gd
