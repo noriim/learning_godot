@@ -1,12 +1,7 @@
-res://player.tscn
 res://2d_shooter_game.tscn
-res://pine_tree.tscn
 res://mob.tscn
-res://gun.tscn
-res://gun.gd
-res://bullet.tscn
-res://bullet.gd
-res://Mob.gd
-res://player.gd
 res://2d_shooter_game.gd
+res://bullet.gd
+res://gun.gd
 res://mob.gd
+res://player.gd
